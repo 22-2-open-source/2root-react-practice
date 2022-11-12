@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import KakaoLogin from './components/kakao/LoginTest'
+import NaverLogin from './components/naver/NaverLogin';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </header>
 
       <KakaoLogin/>
+      <NaverLogin/>
     </div>
   );
 }
